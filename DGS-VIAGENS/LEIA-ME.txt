@@ -1,0 +1,9 @@
+DGS VIAGENS — SITE
+
+1. Abra a pasta DGS-VIAGENS no Visual Studio Code.
+2. Abra o arquivo index.html no navegador.
+3. Para visualizar com atualização automática, instale a extensão "Live Server" no VS Code.
+4. No index.html, substitua todas as ocorrências de:
+   5500000000000
+   pelo número real do WhatsApp, incluindo 55 + DDD + número, sem espaços.
+5. Substitua o e-mail contato@dgsviagens.com.br pelo e-mail real, caso seja diferente.
