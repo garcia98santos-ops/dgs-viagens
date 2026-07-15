@@ -1,0 +1,20 @@
+
+.nav a.active{color:var(--gold-light);opacity:1}
+.fleet-hero{min-height:620px;position:relative;display:grid;align-items:center;background:url('../images/frota-sprinter-417-2024.jpg') center 58%/cover no-repeat;color:#fff}
+.fleet-hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,16,24,.94),rgba(4,16,24,.52) 60%,rgba(4,16,24,.22))}
+.fleet-hero-content{position:relative;z-index:2;padding-top:90px;max-width:760px}
+.fleet-hero h1{font-family:"Cormorant Garamond",serif;font-size:clamp(4rem,8vw,7.5rem);line-height:.95;margin:.2em 0}
+.fleet-hero p{font-size:1.15rem;color:rgba(255,255,255,.82);max-width:680px;margin-bottom:30px}
+.fleet-intro{padding:90px 0 30px;background:var(--off)}.vehicles{padding:40px 0 110px;background:var(--off)}
+.vehicle-list{display:grid;gap:34px}.vehicle-row{display:grid;grid-template-columns:1.08fr .92fr;background:#fff;border:1px solid #e7e2d7;border-radius:28px;overflow:hidden;box-shadow:0 18px 55px rgba(0,0,0,.08)}
+.vehicle-row.reverse{grid-template-columns:.92fr 1.08fr}.vehicle-row.reverse .vehicle-image{order:2}.vehicle-row.reverse .vehicle-content{order:1}
+.vehicle-image{position:relative;min-height:480px}.vehicle-image img{width:100%;height:100%;object-fit:cover}
+.vehicle-badge{position:absolute;left:22px;top:22px;padding:9px 14px;border-radius:999px;background:rgba(8,25,35,.86);color:var(--gold-light);font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;font-weight:700}
+.vehicle-content{padding:54px;display:flex;flex-direction:column;justify-content:center}.vehicle-year{font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;color:#9b7626;font-weight:700}
+.vehicle-content h2{font-family:"Cormorant Garamond",serif;font-size:clamp(2.5rem,4vw,4.2rem);line-height:1;margin:12px 0 10px;color:var(--blue)}
+.vehicle-capacity{font-size:1.05rem;font-weight:700;color:var(--gold);margin:0 0 18px}.vehicle-content>p:not(.vehicle-capacity){color:var(--muted);margin:0 0 22px}
+.vehicle-features{list-style:none;padding:0;margin:0 0 30px;display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}.vehicle-features li:before{content:"✓";color:var(--gold);font-weight:800;margin-right:8px}
+.vehicle-content .btn{align-self:flex-start}.fleet-cta{background:linear-gradient(135deg,#071822,#103c5b);color:#fff;padding:78px 0}.fleet-cta .container{display:grid;grid-template-columns:1fr auto;align-items:center;gap:40px}
+.fleet-cta h2{font-family:"Cormorant Garamond",serif;font-size:clamp(2.6rem,5vw,4.5rem);line-height:1;margin:.25em 0}.fleet-cta p{color:rgba(255,255,255,.76)}
+@media(max-width:900px){.vehicle-row,.vehicle-row.reverse{grid-template-columns:1fr}.vehicle-row.reverse .vehicle-image,.vehicle-row.reverse .vehicle-content{order:initial}.vehicle-image{min-height:400px}.fleet-cta .container{grid-template-columns:1fr}}
+@media(max-width:600px){.fleet-hero{min-height:540px}.fleet-hero h1{font-size:4rem}.vehicle-image{min-height:330px}.vehicle-content{padding:30px 24px}.vehicle-features{grid-template-columns:1fr}.vehicle-content .btn{width:100%}}
