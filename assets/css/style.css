@@ -35,7 +35,7 @@ button{font:inherit}
 .nav-cta{min-height:44px;padding:0 20px;font-size:.9rem}
 .menu-toggle{display:none;background:none;border:0}.menu-toggle span{display:block;width:25px;height:2px;background:#fff;margin:5px}
 .hero{min-height:780px;position:relative;display:grid;align-items:center;color:#fff;overflow:hidden}
-.hero-media{position:absolute;inset:0;background:url('../images/sprinter-exterior.jpg') center/cover no-repeat;transform:scale(1.02)}
+.hero-media{position:absolute;inset:0;background:url('../images/sprinter/sprinter-515-dgs.jpg') center/cover no-repeat;transform:scale(1.02)}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,16,24,.92) 0%,rgba(4,16,24,.68) 48%,rgba(4,16,24,.35) 100%),linear-gradient(0deg,rgba(4,16,24,.45),transparent)}
 .hero-content{position:relative;z-index:2;padding-top:80px;max-width:950px}
 .eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.76rem;font-weight:700;color:var(--gold-light)}
@@ -98,3 +98,5 @@ button{font:inherit}
   .fleet-feature img,.corporate-grid img{height:360px}.fleet-copy h3{font-size:2.5rem}
   .footer-bottom{flex-direction:column;gap:8px}.whatsapp-float{right:16px;bottom:16px}
 }
+
+.service-link{display:inline-block;margin-top:16px;color:var(--blue);font-weight:700}.nav a.active{color:var(--gold-light);opacity:1}
